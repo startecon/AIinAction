@@ -1,0 +1,67 @@
+﻿/* TODO:THEME */
+@font-face {
+    font-family: 'Arial Narrow';
+    src: local('Arial Narrow'), url(./fonts/ARIALN.TTF) format('truetype');
+}
+
+/* TODO:THEME */
+body {
+    /*
+        background: rgba(30,30,30,1);
+    */
+    font: 15pt 'Arial Narrow', Arial, sans-serif;
+    font-stretch: condensed;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+.Content {
+    display: block;
+    width: calc(100%);
+    z-index: 0;
+    padding: 10px;
+}
+
+#Prices {
+    position: relative;
+    z-index: -1;
+    background-image: url('/images/mountains-1.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: calc(100vh - 84px) !important;
+}
+
+.map-wrapper {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+.map {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.leaflet-tooltip {
+    min-width: 100%;
+    min-height: 100%;
+    padding: 20px;
+    justify-content: center;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.powerbi-report {
+    min-height: 99vh !important;
+    background-color: #3a3a3a;
+    width: calc(100vw - 65px) !important;
+}
+
+    .powerbi-report > iframe {
+        height: 99vh !important;
+        width: calc(100vw - 65px) !important;
+    }

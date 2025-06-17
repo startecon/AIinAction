@@ -1,0 +1,30 @@
+
+namespace GeoService_UI.Models;
+
+attribute "fs_serializer";
+attribute "fs_vector";
+
+table BoxAndWhiskerMeasure (fs_serializer) {
+	label:string;
+	description:string;
+	categories:[BoxAndWhiskerCategory] (fs_vector:"IList");
+}
+
+table BoxAndWhiskerCategory (fs_serializer) {
+	label:string;
+	description:string;
+	histogram:[HistogramBin] (fs_vector:"IList");
+	valuebins:[BoxAndWhiskerValues] (fs_vector:"IList");
+}
+
+table BoxAndWhiskerValues (fs_serializer) {
+	values:[float] (fs_vector:"IList");
+}
+
+struct HistogramBin {
+	lowerbound:float;
+	upperbound:float;
+	count:int;
+}
+
+root_type BoxAndWhiskerMeasure;

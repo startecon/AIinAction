@@ -1,0 +1,19 @@
+.countryLabel {
+    background: rgba(255, 255, 255, 0);
+    font-weight: bold;
+    font-size: 20px;
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 0 0px 0px;
+    color: #7030a0;
+    opacity: 1;
+}
+.cityLabel {
+    background: rgba(255, 255, 255, 0);
+    font-size: 16px;
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 0 0px 0px;
+    color: #ff6600;
+    opacity: 1;
+}
