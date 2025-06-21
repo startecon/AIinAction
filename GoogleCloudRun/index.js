@@ -11,6 +11,36 @@ const collName = "observations_wind_power_vectors_3"; // Rev. 3
 const database = client.db(dbName);
 const coll = database.collection(collName);
 
+
+//
+// arr = [[2.2, 3.3, 1.3], [1.2, 5.3, 2.2], [0.3, 2.2, 5.2]];
+
+const get_max_arr = (arr) => {
+    const data = arr.reduce(function (final, current) {
+        for (let i = 0; i < final.length; ++i) {
+            if (current[i] > final[i]) {
+                final[i] = current[i];
+            }
+        }
+        return final;
+    });
+
+    return data;
+}
+
+const get_min_arr = (arr) => {
+    const data = arr.reduce(function (final, current) {
+        for (let i = 0; i < final.length; ++i) {
+            if (current[i] < final[i]) {
+                final[i] = current[i];
+            }
+        }
+        return final;
+    });
+
+    return data;
+}
+
 //async function run() {
 //    try {
 //        await client.connect();
@@ -250,6 +280,7 @@ functions.http('helloHttp', (req, res) => {
             console.dir(JSON.stringify(doc))
         });
 
+        //TODO: Replace this to include result data
         res.send(data);
     }
 });
