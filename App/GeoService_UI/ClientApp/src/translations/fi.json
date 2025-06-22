@@ -1,0 +1,203 @@
+{
+  "displayName": "Suomi",
+  "Ok": "Ok",
+  "Close": "Sulje",
+  "Save": "Tallenna",
+  "New": "Uusi",
+  "Edit": "Muokkaa",
+  "Cancel": "Peruuta",
+  "Logout": "Kirjaudu ulos",
+  "TextBoxLabel": "Kirjoita tai valitse",
+  "DataTableLabels": {
+    "body": {
+      "noMatch": "Ei löytynyt mitään hakua vastaavaa",
+      "toolTip": "Järjestä"
+    },
+    "pagination": {
+      "next": "Seuraava",
+      "previous": "Edellinen",
+      "rowsPerPage": "Riviä sivulla:",
+      "displayRows": "/",
+      "jumpToPage": "Siirry sivulle:"
+    },
+    "filter": {
+      "all": "Kaikki",
+      "title": "Suodattimet",
+      "reset": "Palauta"
+    },
+    "toolbar": {
+      "search": "Hae",
+      "downloadCsv": "Lataa .CSV",
+      "print": "Tulosta",
+      "viewColumns": "Näytä sarakkeet",
+      "filterTable": "Suodata"
+    },
+    "selectedRows": {
+      "text": "rivi(ä) valittu",
+      "delete": "Poista",
+      "deleteAria": "Poista valitut rivit"
+    }
+  },
+  "NavMenu": {
+    "Asetukset": {
+      "Asetukset": "Asetukset",
+      "Asiakkaat": "Asiakkaat",
+      "Toiminnot": "Toiminnot",
+      "Kayttajat": "Käyttäjät",
+      "Roolit": "Roolit",
+      "Kayttajienroolit": "Käyttäjien roolit",
+      "Kayttooikeudet": "Käyttöoikeudet",
+      "Tilat": "Tilat",
+      "Plans": "Palvelupaketit",
+      "Marketplace": "Azure tilaukset"
+    },
+    "Analytiikka": {
+      "Analytiikka": "Analytiikka",
+      "Ajo": "Ajojen seuranta",
+      "Kulutus": "Paikkatietoanalyysit",
+      "Kustannukset": "Kustannukset"
+    },
+    "Logout": "Kirjaudu ulos"
+  },
+  "Toolbar": {
+    "Preview": "Esikatselu",
+    "New": "Uusi",
+    "NewRow": "Uusi rivi",
+    "Edit": "Muokkaa",
+    "Delete": "Poista",
+    "Confirmation": "Haluatko poistaa tiedon pysyvästi? ID:",
+    "Confirmation2": "Haluatko varmasti kopioida seuraavat rivit: ",
+    "Copy": "Kopio",
+    "Activate": "Aktivoi",
+    "CreateAccount": "Luo tili",
+    "Update": "Päivitä",
+    "Ok": "Ok"
+  },
+  "AdminProfiili": {
+    "Title": "Profiili",
+    "Columns": [ "ProfiiliId", "Asetukset", "Käyttäjä" ]
+  },
+  "AdminRooli": {
+    "Title": "Rooli",
+    "Columns": [ "RooliId", "RooliNimi", "Luotu", "Muokattu", "Muokkaaja", "Käytössä" ]
+  },
+  "AdminRooliOikeudet": {
+    "Title": "Roolioikeudet",
+    "Columns": [ "RooliOikeudetId", "Rooli", "Entiteetti", "Rivi", "Luotu", "Muokattu", "Muokkaaja", "Käytössä" ]
+  },
+  "AdminRoolit": {
+    "Title": "Roolit",
+    "Columns": [ "RoolitId", "Rooli", "Käyttäjä", "Luotu", "Muokattu", "Muokkaaja", "Käytössä" ]
+  },
+  "AdminTila": {
+    "Title": "Tila",
+    "Columns": [ "TilaAvain", "Tilanimi", "Luotu", "Käytössä", "Muokattu", "Käyttäjä" ]
+  },
+  "AdminRaportti": {
+    "Title": "Raporttiasetukset",
+    "Columns": [ "Riviavain", "Raporttiryhmä", "Tietopalvelu", "Raporttityyppi", "Sijainti navigaatiossa", "Toiminto", "Raporttisetti", "Kieli", "Esitysjärjestys", "Esitettävä nimi", "Tiedostonimi", "Kuvaus", "Raporttitunnus", "Parametrit", "Tietojoukko", "Sivu", "Suodattimien esitys", "Sivuvalikon esitys", "Kirjanmerkkien esitys", "Raportin asettelu", "Nostoteksti", "Tietopäivitys", "Lisätiedot", "Luotu", "Päivitetty", "Muokkaaja", "Käytössä" ]
+  },
+  "Palvelupaketti": {
+    "Title": "Palvelupaketti",
+    "Columns": [ "Id", "Palvelupaketti", "Toiminto", "Entiteetti", "Maksimi", "Luotu", "Muokattu", "Käyttäjä", "Käytössä" ]
+  },
+  "Toiminnot": {
+    "Title": "Toiminnot",
+    "Columns": [ "RiviAvain", "Paketti", "Toiminto", "Aktivoitu", "Luotu", "Muokattu", "Käyttäjä", "Käytössä" ]
+  },
+  "AdminMarketplace": {
+    "Columns": [ "Id", "NotCreated", "PublisherId", "OfferId", "Name", "SaasSubscriptionStatus", "Beneficiary", "Purchaser", "PlanId", "Quantity", "Term", "AutoRenew", "IsTest", "IsFreeTrial", "AllowedCustomerOperations", "SessionId", "FulfillmentId", "StoreFront", "SandboxType", "Created", "SessionMode", "TenantId" ],
+    "Confirmation1": "Haluatko varmasti poistaa seuraavat tilaukset: ",
+    "Confirmation2": "Haluatko varmasti aktivoida seuraavat tilaukset: "
+  },
+  "FeatureGroup": {
+    "Title": "Muuttujaryhmät",
+    "Title2": "Valitse muuttujaryhmä",
+    "Tooltip1": "Valitse listalta"
+  },
+  "Routing": {
+    "Label1": "Sijainti",
+    "Label2": "Kohde",
+    "Label3": "Etäisyydet matka-ajassa",
+    "Label4": "Maksimi aika minuuteissa",
+    "Label5": [ "Maksimi CO", "2", " päästöt" ],
+    "Label6": "Valtioiden rajat",
+    "Label7": "Valtioiden nimet",
+    "Label8": "Kaupungit",
+    "FuelSelectLabel": "Polttoaine-tyyppi",
+    "FuelOption1": "Diesel (DO)",
+    "FuelOption2": "Bensiini (ULP)",
+    "FuelOption3": "Nestekaasu (LPG)",
+    "FuelOption4": "100% uusiutuva sähkö",
+    "TextBoxLabel": "Kirjoita tai Valitse",
+    "Tooltip": {
+      "Title": [ "Reitti ", "kohteeseen " ],
+      "Labels": [ "kävellen", "autolla", "julkisilla", "pyörällä" ],
+      "Text1": "Alku: ",
+      "Text2": "Päätös: ",
+      "Text3": [ "km", "min" ]
+    }
+  },
+  "Prices": {
+    "MainTitle": "VALITSE TOIMINTO",
+    "TaxNotice": "Hinnat eivät sisällä arvonlisäveroa.",
+    "Help": "Ohjeita",
+    "Start": "Aloita",
+    "Plan": [
+      {
+        "title": "PAIKKATIETOANALYYSIT",
+        "desc": "teksti-kuvaus"
+      },
+      {
+        "title": "AINEISTOJEN SELAUS"
+      },
+      {
+        "title": "HIILIJALANJÄLKI"
+      }
+    ]
+  },
+  "SortColButton": "Järjestä sarakkeet",
+  "Preview": "Esikatselu",
+  "NoInfo": "Ei tietoja",
+  "NotFound": {
+    "Title": "Sivua ei löytynyt :(",
+    "Subtitle": "Pahoittelemme, mutta etsimääsi sivua ei löytynyt.",
+    "Continue": "Jatka etusivulle"
+  },
+  "MuiDataTable": {
+    "textLabels": {
+      "body": {
+        "noMatch": "Tietoja ei löytynyt",
+        "toolTip": "Lajittele"
+      },
+      "pagination": {
+        "next": "Seuraava",
+        "previous": "Edellinen",
+        "rowsPerPage": "Näytä kerralla:",
+        "displayRows": "/",
+        "jumpToPage": "Siirry sivulle:"
+      },
+      "toolbar": {
+        "search": "Etsi",
+        "downloadCsv": "Talleta CSV",
+        "print": "Tulosta",
+        "viewColumns": "Edit View",
+        "filterTable": "Suodata"
+      },
+      "filter": {
+        "all": "All",
+        "title": "SUODATTIMET",
+        "reset": "POISTA SUODATUKSET"
+      },
+      "viewColumns": {
+        "title": "Näytä sarakkeet",
+        "titleAria": "Näytä / piilota taulukon sarakkeita"
+      },
+      "selectedRows": {
+        "text": "Valittu",
+        "delete": "Poista",
+        "deleteAria": "Poista valitut rivit"
+      }
+    }
+  }
+}

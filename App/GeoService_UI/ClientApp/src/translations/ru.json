@@ -1,0 +1,202 @@
+{
+  "displayName": "Русский",
+  "Ok": "Ok",
+  "Close": "Close",
+  "Save": "Save",
+  "New": "Новый",
+  "Edit": "Редактировать",
+  "Cancel": "Отмена",
+  "Logout": "Выйти",
+  "TextBoxLabel": "Напишите или выберите",
+  "DataTableLabels": {
+    "body": {
+      "noMatch": "К сожалению, подходящие записи не найдены",
+      "toolTip": "Сортировать"
+    },
+    "pagination": {
+      "next": "Следущая страница",
+      "previous": "Предыдущая страница",
+      "rowsPerPage": "Рядов на странице:",
+      "displayRows": "из",
+      "jumpToPage": "Перейти на страницу:"
+    },
+    "filter": {
+      "all": "Все",
+      "title": "ФИЛЬТРЫ",
+      "reset": "ПЕРЕЗАГРУЗИТЬ"
+    },
+    "toolbar": {
+      "search": "Поиск",
+      "downloadCsv": "Скачать CSV",
+      "print": "Распечатать",
+      "viewColumns": "Просмотр столбцов",
+      "filterTable": "Таблица фильтров"
+    },
+    "selectedRows": {
+      "text": "строки выбраны",
+      "delete": "Удалить",
+      "deleteAria": "Удалить выбранные строки"
+    }
+  },
+  "NavMenu": {
+    "Asetukset": {
+      "Asetukset": "Настройки",
+      "Asiakkaat": "Клиенты",
+      "Toiminnot": "Функции",
+      "Kayttajat": "Пользователи",
+      "Roolit": "Роли",
+      "Kayttajienroolit": "Роли пользователей",
+      "Kayttooikeudet": "Разрешения",
+      "Tilat": "Режимы",
+      "Plans": "Планы",
+      "Marketplace": "Торговая площадка"
+    },
+    "Analytiikka": {
+      "Analytiikka": "Аналитика",
+      "Ajo": "Отслеживание пробегов",
+      "Kulutus": "Пространственная аналитика",
+      "Kustannukset": "Расходы"
+    },
+    "Logout": "Выйти"
+  },
+  "Toolbar": {
+    "Preview": "Предварительный просмотр",
+    "New": "Новый",
+    "NewRow": "Новая строка",
+    "Edit": "Редактировать",
+    "Delete": "Удалить",
+    "Confirmation": "Вы действительно хотите удалить навсегда? ID:",
+    "Confirmation2": "Вы действительно хотите скопировать строки: ",
+    "Copy": "Копировать",
+    "Activate": "Активировать",
+    "CreateAccount": "Зарегистрироваться",
+    "Update": "Обновлять",
+    "Ok": "Ок"
+  },
+  "AdminProfiili": {
+    "Title": "Профиль",
+    "Columns": [ "Профиль ID", "Настройки", "Пользователь" ]
+  },
+  "AdminRooli": {
+    "Title": "Роль",
+    "Columns": [ "Роль ID", "ИмяРоли", "Созданный", "Отредактировано", "Редактор", "В использовании" ]
+  },
+  "AdminRooliOikeudet": {
+    "Title": "Разрешения роли",
+    "Columns": [ "РазрешенияРолиID", "Роль", "Объект", "Строка", "Созданный", "Отредактировано", "Редактор", "В использовании" ]
+  },
+  "AdminRoolit": {
+    "Title": "Роли",
+    "Columns": [ "Роль ID", "Роль", "Пользователь", "Созданный", "Отредактировано", "Редактор", "В использовании" ]
+  },
+  "AdminTila": {
+    "Title": "Статус",
+    "Columns": [ "СтатусКлюч", "СтатусИмя", "Созданный", "В использовании", "Отредактировано", "Пользователь" ]
+  },
+  "AdminRaportti": {
+    "Title": "Report Settings",
+    "Columns": [ "Id", "Group", "Service", "Report Type", "Location in Menu", "Feature", "Reportset Id", "Language", "Ordering", "Display Name", "Report Filename", "Description", "Report Id", "Report Parameters", "Dataset Id", "Page Id", "Display Filters", "Display Page Navigation", "Display bookmarks", "Display Option", "Badge text", "Updated text", "Additional information", "Created", "Updated", "Username", "In use" ]
+  },
+  "Palvelupaketti": {
+    "Title": "Пакет услуг",
+    "Columns": [ "ID", "Пакет услуг", "Особенность", "Объект", "Максимум", "Созданный", "Отредактировано", "Пользователь", "В использовании" ]
+  },
+  "Toiminnot": {
+    "Title": "Особенности",
+    "Columns": [ "КлючСтроки", "Упаковка", "Особенность", "Активировано", "Созданный", "Отредактировано", "Пользователь", "В использовании" ]
+  },
+  "AdminMarketplace": {
+    "Columns": [ "Id", "НеСоздан", "ИздательId", "ПредложениеId", "Имя", "SaaSСтатусПодписки", "Бенефициар", "Покупатель", "ПланId", "Количество", "Срок", "АвтоОбновление", "Тест", "БесплатнаяПробнаяВерсия", "Разрешенные операции с клиентами", "СессияId", "ИсполнениеId", "ФронтМагазина", "ТипПесочницы", "Созданный", "РежимСеанса", "ЖилецId" ],
+    "Confirmation1": "Вы действительно хотите удалить следующие заказы: ",
+    "Confirmation2": "Вы действительно хотите активировать следующие заказы: "
+  },
+  "FeatureGroup": {
+    "Title": "Группы переменных",
+    "Title2": "Выберите группу переменных",
+    "Tooltip1": "Выберите из списка"
+  },
+  "Routing": {
+    "Label1": "Положение",
+    "Label2": "Назначение",
+    "Label3": "Расстояния за время в пути",
+    "Label4": "Максимальное время в минутах",
+    "Label5": [ "Максимум CO", "2", " выбросы (кг)" ],
+    "Label6": "Границы страны",
+    "Label7": "Этикетки стран",
+    "Label8": "Этикетки города",
+    "FuelSelectLabel": "Тип топлива",
+    "FuelOption1": "Дизельное топливо (DO)",
+    "FuelOption2": "Неэтилированный бензин (ULP)",
+    "FuelOption3": "Сжиженный нефтяной газ (LPG)",
+    "FuelOption4": "100% Возобновляемая электроэнергия",
+    "TextBoxLabel": "Напишите или выберите",
+    "Tooltip": {
+      "Title": [ "Поездка в", "назначения по " ],
+      "Labels": [ "пешком", "машина", "общественный транспорт", "велосипед" ],
+      "Text1": "Начало: ",
+      "Text2": "Конец: ",
+      "Text3": [ "км", "мин" ]
+    }
+  },
+  "Prices": {
+    "MainTitle": "ВЫБЕРИТЕ УСЛУГУ",
+    "TaxNotice": "Цены не включают НДС",
+    "Help": "Помощь",
+    "Start": "Начинать",
+    "Plan": [
+      {
+        "title": "ПРОСТРАНСТВЕННЫЙ АНАЛИЗ",
+        "desc": "текстовое описание"
+      },
+      {
+        "title": "ПОСМОТРЕТЬ МАТЕРИАЛЫ"
+      },
+      {
+        "title": "УГЛЕРОДНЫЙ СЛЕД"
+      }
+    ]
+  },
+  "SortColButton": "Сортировка столбцов",
+  "Preview": "Предварительный просмотр",
+  "NoInfo": "Нет информации",
+  "NotFound": {
+    "Title": "Sivua ei löytynyt :(",
+    "Subtitle": "Pahoittelemme, mutta etsimääsi sivua ei löytynyt.",
+    "Continue": "Jatka etusivulle"
+  },
+  "MuiDataTable": {
+    "textLabels": {
+      "body": {
+        "noMatch": "Sorry, no matching records found",
+        "toolTip": "Sort"
+      },
+      "pagination": {
+        "next": "Next Page",
+        "previous": "Previous Page",
+        "rowsPerPage": "Rows per page:",
+        "displayRows": "of"
+      },
+      "toolbar": {
+        "search": "Search",
+        "downloadCsv": "Download CSV",
+        "print": "Print",
+        "viewColumns": "View Columns",
+        "filterTable": "Filter Table"
+      },
+      "filter": {
+        "all": "All",
+        "title": "FILTERS",
+        "reset": "RESET"
+      },
+      "viewColumns": {
+        "title": "Show Columns",
+        "titleAria": "Show/Hide Table Columns"
+      },
+      "selectedRows": {
+        "text": "row(s) selected",
+        "delete": "Delete",
+        "deleteAria": "Delete Selected Rows"
+      }
+    }
+  }
+}

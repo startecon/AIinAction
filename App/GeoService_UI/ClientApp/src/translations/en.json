@@ -1,0 +1,201 @@
+{
+  "displayName": "English",
+  "Ok": "Ok",
+  "Close": "Close",
+  "Save": "Save",
+  "Edit": "Edit",
+  "Cancel": "Cancel",
+  "Logout": "Log out",
+  "TextBoxLabel": "Write or choose",
+  "DataTableLabels": {
+    "body": {
+      "noMatch": "Sorry, no matching records found",
+      "toolTip": "Sort"
+    },
+    "pagination": {
+      "next": "Next Page",
+      "previous": "Previous Page",
+      "rowsPerPage": "Rows per page:",
+      "displayRows": "of",
+      "jumpToPage": "Jump to page:"
+    },
+    "filter": {
+      "all": "All",
+      "title": "FILTERS",
+      "reset": "RESET"
+    },
+    "toolbar": {
+      "search": "Search",
+      "downloadCsv": "Download CSV",
+      "print": "Print",
+      "viewColumns": "View Columns",
+      "filterTable": "Filter Table"
+    },
+    "selectedRows": {
+      "text": "row(s) selected",
+      "delete": "Delete",
+      "deleteAria": "Delete Selected Rows"
+    }
+  },
+  "NavMenu": {
+    "Asetukset": {
+      "Asetukset": "Settings",
+      "Asiakkaat": "Customers",
+      "Toiminnot": "Features",
+      "Kayttajat": "Users",
+      "Roolit": "Roles",
+      "Kayttajienroolit": "User roles",
+      "Kayttooikeudet": "Permissions",
+      "Tilat": "Modes",
+      "Plans": "Plans",
+      "Marketplace": "Marketplace"
+    },
+    "Analytiikka": {
+      "Analytiikka": "Analytics",
+      "Ajo": "Tracking of runs",
+      "Kulutus": "Spatial Analytics",
+      "Kustannukset": "Costs"
+    },
+    "Logout": "Log out"
+  },
+  "Toolbar": {
+    "Preview": "Preview",
+    "New": "New",
+    "NewRow": "New row",
+    "Edit": "Edit",
+    "Delete": "Delete",
+    "Confirmation": "Do you really want to delete permanently? ID:",
+    "Confirmation2": "Do you really want to copy rows: ",
+    "Copy": "Copy",
+    "Activate": "Activate",
+    "CreateAccount": "Create account",
+    "Update": "Update",
+    "Ok": "Ok"
+  },
+  "AdminProfiili": {
+    "Title": "Profile",
+    "Columns": [ "Profile ID", "Settings", "User" ]
+  },
+  "AdminRooli": {
+    "Title": "Role",
+    "Columns": [ "Role ID", "RoleName", "Created", "Edited", "Editor", "In use" ]
+  },
+  "AdminRooliOikeudet": {
+    "Title": "Role permissions",
+    "Columns": [ "RolePermissionID", "Role", "Entity", "Row", "Created", "Edited", "Editor", "In use" ]
+  },
+  "AdminRoolit": {
+    "Title": "Roles",
+    "Columns": [ "Role ID", "Role", "User", "Created", "Edited", "Editor", "In use" ]
+  },
+  "AdminTila": {
+    "Title": "Status",
+    "Columns": [ "StatusKey", "StatusName", "Created", "In use", "Edited", "User" ]
+  },
+  "AdminRaportti": {
+    "Title": "Report Settings",
+    "Columns": [ "Id", "Group", "Service", "Report Type", "Location in Menu", "Feature", "Reportset Id", "Language", "Ordering", "Display Name", "Report Filename", "Description", "Report Id", "Report Parameters", "Dataset Id", "Page Id", "Display Filters", "Display Page Navigation", "Display bookmarks", "Display Option", "Badge text", "Updated text", "Additional information", "Created", "Updated", "Username", "In use" ]
+  },
+  "Palvelupaketti": {
+    "Title": "Service package",
+    "Columns": [ "ID", "Service package", "Feature", "Entity", "Maximum", "Created", "Edited", "User", "In use" ]
+  },
+  "Toiminnot": {
+    "Title": "Features",
+    "Columns": [ "RowKey", "Package", "Feature", "Activated", "Created", "Edited", "User", "In use" ]
+  },
+  "AdminMarketplace": {
+    "Columns": [ "Id", "NotCreated", "PublisherId", "OfferId", "Name", "SaasSubscriptionStatus", "Beneficiary", "Purchaser", "PlanId", "Quantity", "Term", "AutoRenew", "IsTest", "IsFreeTrial", "AllowedCustomerOperations", "SessionId", "FulfillmentId", "StoreFront", "SandboxType", "Created", "SessionMode", "TenantId" ],
+    "Confirmation1": "Do you really want to delete following orders: ",
+    "Confirmation2": "Do you really want to activate following orders: "
+  },
+  "FeatureGroup": {
+    "Title": "Variable groups",
+    "Title2": "Choose variable group",
+    "Tooltip1": "Choose from the list"
+  },
+  "Routing": {
+    "Label1": "Location",
+    "Label2": "Destination",
+    "Label3": "Distances in travel time",
+    "Label4": "Maximum time in minutes",
+    "Label5": [ "Maximum CO", "2", " emissions (kg)" ],
+    "Label6": "Country borders",
+    "Label7": "Country labels",
+    "Label8": "City labels",
+    "FuelSelectLabel": "Fuel type",
+    "FuelOption1": "Diesel oil (DO)",
+    "FuelOption2": "Unleaded Gasoline (ULP)",
+    "FuelOption3": "Liquified Petroleum Gas (LPG)",
+    "FuelOption4": "100% Renewable electricity",
+    "TextBoxLabel": "Write or Choose",
+    "Tooltip": {
+      "Title": [ "Trip to", "destination by " ],
+      "Labels": [ "walk", "car", "public transport", "bicycle" ],
+      "Text1": "Start: ",
+      "Text2": "End: ",
+      "Text3": [ "km", "min" ]
+    }
+  },
+  "Prices": {
+    "MainTitle": "CHOOSE SERVICE",
+    "TaxNotice": "The prices do not include VAT",
+    "Help": "Help",
+    "Start": "Start",
+    "Plan": [
+      {
+        "title": "SPATIAL ANALYSIS",
+        "desc": "text-description"
+      },
+      {
+        "title": "BROWSE MATERIALS"
+      },
+      {
+        "title": "CARBON FOOTPRINT"
+      }
+    ]
+  },
+  "SortColButton": "Sort Columns",
+  "Preview": "Preview",
+  "NoInfo": "No info",
+  "NotFound": {
+    "Title": "Sivua ei löytynyt :(",
+    "Subtitle": "Pahoittelemme, mutta etsimääsi sivua ei löytynyt.",
+    "Continue": "Jatka etusivulle"
+  },
+  "MuiDataTable": {
+    "textLabels": {
+      "body": {
+        "noMatch": "Sorry, no matching records found",
+        "toolTip": "Sort"
+      },
+      "pagination": {
+        "next": "Next Page",
+        "previous": "Previous Page",
+        "rowsPerPage": "Rows per page:",
+        "displayRows": "of"
+      },
+      "toolbar": {
+        "search": "Search",
+        "downloadCsv": "Download CSV",
+        "print": "Print",
+        "viewColumns": "View Columns",
+        "filterTable": "Filter Table"
+      },
+      "filter": {
+        "all": "All",
+        "title": "FILTERS",
+        "reset": "RESET"
+      },
+      "viewColumns": {
+        "title": "Show Columns",
+        "titleAria": "Show/Hide Table Columns"
+      },
+      "selectedRows": {
+        "text": "row(s) selected",
+        "delete": "Delete",
+        "deleteAria": "Delete Selected Rows"
+      }
+    }
+  }
+}

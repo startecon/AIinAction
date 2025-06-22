@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html {
+	font-family: "Arial Narrow";
+}
+</style>
+</head>
+<body>
+<h1>Forecasting the Wind Power Production</h1>
+<h2>Overview of the Wind Mill Farm</h2>
+<img src="info-image-1.png" width="600px" alt="overview" />
+<h2>Cycles in the Wind and Weather Conditions</h2>
+<img src="info-image-2.png" width="600px" alt="cycles" />
+<ul>
+<li>Wind and weather conditions cycle through time but time timespan can vary</li>
+<li>There is micro cycling in macro cycling</li>
+</ul>
+<h2>The Wind Mill Observations in Farm</h2>
+<img src="info-image-3.png" width="600px" alt="observations" />
+<ul>
+<li>Our sample data in the solution has multiple wind mills and multiple measuring points for observations</li>
+<li>The metrics are temperature, wind speed, global surface radiation and wind power</li>
+</ul>
+<h2>Dynamics between the Observations Measuring Points</h2>
+<img src="info-image-4.png" width="600px" alt="dynamics" />
+<ul>
+<li>Observations from the earlier time points will be included to data row and the vectors</li>
+<li>As combining historical observation time points to current observation point then dynamics between the observation points can be "memorized" to the data model</li>
+</ul>
+<h2>Flattening Multidimensional Data to Vectors</h2>
+<img src="info-image-5.png" width="600px" alt="flattening" />
+<ul>
+<li>Current observation is combined to each sibling observation point from every location and altitude</li>
+<li>Then all the data is flattened to one data row and data is normalized and tranformed to vector</li>
+</ul>
+<h1>Querying the Data Model</h1>
+<h2>Vector Search</h1>
+<img src="info-image-6.png" width="600px" alt="query" />
+<ul>
+<li>Query will search the most similar historical moment with the queried moment</li>
+<li>Vector search looks the most similar vectors and returns best matches</li>
+<li>Vectors A and B are vectors which are comapred in the picture</li>
+</ul>
+<h2>Cosine Similarity Search</h2>
+<img src="info-image-7.png" width="600px" alt="cosine similarity" />
+<ul>
+<li>Cosine similarity method calculates the correlation of two vectors </li>
+<li>Vector search looks the most similar vectors and returns best matches</li>
+</ul>
+</body>
+</html>

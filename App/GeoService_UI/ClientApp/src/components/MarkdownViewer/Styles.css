@@ -1,0 +1,8 @@
+﻿/* Navi fontti tavallista isommaksi */
+.MuiTreeItem-label {
+    font-size: x-large !important;
+}
+
+code {
+    color: #ee6c4d;
+}
